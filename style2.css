@@ -1,0 +1,108 @@
+a { /* Стили для элемента <a> */
+    height: 50px; /* Установка высоты 50px */
+}
+
+.theme-toggle-list-open {
+    margin-left: 81.875%;
+    height: 50px;
+    width: 50px;
+    background-color: #AB00BA;
+}
+
+.theme-toggle-list {
+    font-size: 0px;
+    margin-left: 81.875%;
+}
+
+
+.theme-toggle { /* Стили для элемента с классом theme-toggle */
+    margin: 10px; /* Отступы вокруг элемента 30px */
+    color: #000; /* Цвет текста #000 (черный) */
+}
+
+.header { /* Стили для элемента с классом header */
+    background: #cfccff; /* Фоновый цвет #cfccff */
+    width: 100%; /* Ширина 100% */
+    height: 50px; /* Высота 50px */
+    margin-bottom: 20px; /* Отступ снизу 20px */
+    display: flex; /* Отображение элемента как flex-контейнер */
+}
+
+.logo { /* Стили для элемента с классом logo */
+    margin: 2px; /* Отступы вокруг элемента 2px */
+    border-style: outset; /* Стиль рамки outset */
+    background-color: #103; /* Цвет фона #103 */
+    height: 40px; /* Высота 40px */
+    width: 40px; /* Ширина 40px */
+}
+
+span { /* Стили для элемента <span> */
+    background-color: #ccffcc; /* Цвет фона #ccffcc */
+    border-style: inset; /* Стиль рамки inset */
+    border-radius: 0px; /* Радиус скругления рамки 0px */
+    margin-top: 20px; /* Отступ сверху 20px */
+    border-width: 3px; /* Толщина рамки 3px */
+    color: #000; /* Цвет текста #000 (черный) */
+}
+
+.clickable-box { /* Стили для элемента с классом clickable-box */
+    color: #ababba; /* Цвет текста #ababba */
+}
+
+.about { /* Стили для элемента с классом about */
+    background-color: #ccffcc; /* Цвет фона #ccffcc */
+    border-style: inset; /* Стиль рамки inset */
+    border-radius: 0px; /* Радиус скругления рамки 0px */
+    margin-top: 20px; /* Отступ сверху 20px */
+    border-width: 3px; /* Толщина рамки 3px */
+    color: #000; /* Цвет текста #000 (черный) */
+}
+
+.photobox { /* Стили для элемента с классом photobox */
+    border-width: 3px; /* Толщина рамки 3px */
+    border-color: #00ff00; /* Цвет рамки #00ff00 (зеленый) */
+    background-color: #424252; /* Цвет фона #424252 */
+    border-style: inset; /* Стиль рамки inset */
+    border-radius: 0%; /* Радиус скругления рамки 0% */
+    width: 250px; /* Ширина 250px */
+    height: 250px; /* Высота 250px */
+    margin: 20px; /* Внешние отступы 20px */
+}
+
+.photo { /* Стили для элемента с классом photo */
+    border-radius: 0%; /* Радиус скругления рамки 0% */
+    margin: 2.5%; /* Отступы вокруг элемента 2.5% */
+    height: 95%; /* Высота 95% */
+}
+
+.box { /* Стили для элемента с классом box */
+    border-style: inset; /* Стиль рамки inset */
+    border-radius: 0px; /* Радиус скругления рамки 0px */
+    width: 300px; /* Ширина 300px */
+    height: 500px; /* Высота 500px */
+    background-color: #cdcddc; /* Цвет фона #cdcddc */
+    padding-top: 5px; /* Внутренний отступ сверху 5px */
+    margin-top: 17px; /* Отступ сверху 20px */
+    display: block; /* Отображение элемента как блочный */
+    margin-right: 2px; /* Отступ справа 5 - 2px */
+}
+
+.title { /* Стили для элемента с классом title */
+    font-size: 50px; /* Размер шрифта 50px */
+    margin-left: 20px; /* Отступ слева 20px */
+}
+
+.description { /* Стили для элемента с классом description */
+    margin-left: 20px; /* Отступ слева 20px */
+}
+
+.boxes { /* Стили для элемента с классом boxes */
+    margin-left: 5px; /* Отступ слева 8px */
+    display: flex; /* Отображение элемента как flex-контейнер */
+}
+
+body { /* Стили для элемента <body> */
+    margin: 0px; /* Установка внешних отступов на 0px */
+    background-color: #ababba; /* Цвет фона #ababba */
+    font-family: "MS Sans Serif", sans-serif; /* Шрифт "MS Sans Serif", sans-serif */
+}

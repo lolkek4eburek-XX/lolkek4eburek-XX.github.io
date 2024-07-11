@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css"> <!-- Подключаем внешний файл стилей -->
+    <meta charset="UTF-8"> <!-- Устанавливаем кодировку документа -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Указываем совместимость с IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Задаем параметры отображения на мобильных устройствах -->
+    <title>Это сайт</title> <!-- Устанавливаем заголовок страницы -->
+</head>
+<body>
+
+    <div class="header">
+
+        <a href="index.html"><img src="logo.png" alt="Лого сайта" class="logo"></a> <!-- Вставляем логотип сайта -->
+        <span>Тут текст</span> <!-- Выводим текст -->
+        <a href="about.html"><span>о сайте</span></a> <!-- Ссылка на страницу "о сайте" -->
+        <a href="about_us.html"><span>о нас</span></a> <!-- Ссылка на страницу "о нас" -->
+
+    </div>
+
+    <div class="boxes">
+        <div class="box">
+            <div class="photobox">
+                <img src="img1.png" alt="Тут должно быть изображение, но его нет)))" class="photo"> <!-- Вставляем изображение -->
+            </div>
+            <p class="title">Треугольники</p> <!-- Заголовок блока -->
+            <p class="description">На самом деле это квадратные круги)))</p> <!-- Описание блока -->
+            <a href="/triangles">Подробнее ></a>
+        </div>
+        <div class="box">
+            <div class="photobox">
+                <img src="img2.png" alt="фотОчка" class="photo"> <!-- Вставляем изображение -->
+            </div>
+            <p class="title">Хрень с QR</p> <!-- Заголовок блока -->
+            <p class="description">Писал ChatGPT, поэтому хрень вышла</p> <!-- Описание блока -->
+            <a href="/QRScan">Подробнее ></a>
+        </div>
+        <div class="box">
+            <div class="photobox">
+                <img src="img3.png" alt="фотОчка" class="photo"> <!-- Вставляем изображение -->
+            </div>
+            <p class="title">Третий проект</p> <!-- Заголовок блока -->
+            <p class="description">Его тут нет</p> <!-- Описание блока -->
+        </div>
+    </div>
+    <div class="clickable-box" id="activateScript">
+    Нажми сюда, чтобы активировать проверку на амогуса <!-- Блок для активации скрипта -->
+</div>
+    <div class="theme-toggle-list-open" id="openList"></div>
+    <div class="theme-toggle-list">
+        <div class="theme-toggle" id="theme1">
+            тёмная тема <!-- Блок для переключения на темную тему -->
+        </div>
+        <div class="theme-toggle" id="theme2">
+            светлая тема <!-- Блок для переключения на светлую тему -->
+        </div>
+        <div class="theme-toggle" id="theme3">
+            ностальгическая тема <!-- Блок для переключения на ностальгическую тему -->
+        </div>
+        <div class="theme-toggle" id="theme4">
+            ностальгическая тёмная тема <!-- Блок для переключения на ностальгическую тему -->
+        </div>
+    </div>
+    
+    <script src="script.js"></script> <!-- Подключаем внешний файл скрипта -->
+</body>
+</html>
